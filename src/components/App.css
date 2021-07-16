@@ -1,0 +1,36 @@
+.header{
+        color: whitesmoke;
+        text-align: center;
+}
+.header a{
+        color: white;
+        text-decoration: none;
+        font-style: bold;
+        padding:0px 15px 0px 15px;
+        background-color: black;
+        border-radius: 5px;
+}
+.btnbar{
+        margin-left: 2%;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between;
+
+
+}
+.movebutton{
+
+  background-color: #17283d;
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  font-size: 25px;
+  padding: 10px 20px;
+  border-radius: 7px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  
+}
+.movebutton:hover{
+        background-color: #0c274b;      
+}
