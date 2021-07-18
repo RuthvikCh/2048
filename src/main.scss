@@ -5,9 +5,9 @@
 
 body {
   margin:auto;
-  width: 390px;
+  width: 380px;
   display: flex;
-  background-color: #0f222a;
+  background-color: #f4f6ba;
   flex-direction: column;
   justify-content: center;
   align-content: center;
@@ -25,10 +25,11 @@ body {
 
 .board {
   order: 1;
-  width: 440px;
-  height: 440px;
+  margin: auto;
+  width: 360px;
+  height: 360px;
   padding: 5px;
-  background-color: #1b404e;
+  background-color: #6ea433;//#6ea433
   border-radius: 7px;
   outline: none;
   position: relative;
@@ -41,6 +42,8 @@ body {
 }
 
 .details-box {
+  margin: auto;
+  width: 360px;
   display: flex;
   align-items: center;
   padding: 10px;
@@ -50,11 +53,11 @@ body {
 
 .resetButton {
 
-  background-color: #1a3558;
-  color: rgba(255, 255, 255, 0.5);
+  background-color: #6ea433;
+  color: rgba(0, 0, 0, 0.759);
   cursor: pointer;
   font-size: 25px;
-  padding: 10px 20px;
+  padding: 8px 20px 12px 20px ;
   border-radius: 7px;
   transition: color 0.3s ease, background-color 0.3s ease;
   &:hover {
@@ -62,14 +65,14 @@ body {
     color: rgba(255, 255, 255, 1);
   }
 }
-
+// #6ea433
 .score-header {
   font-size: 50%;
 }
 
 .score-box {
-  background-color: #1a3558;
-  color: rgba(255, 255, 255, 0.5);
+  background-color: #60902d;
+  color: rgba(0, 0, 0, 0.80);
   min-width: 50px;
   width: 70px;
   padding: 5px 15px;
@@ -78,8 +81,8 @@ body {
 
 .cell,
 .tile {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   margin: 5px;
   line-height: 90px;
   display: inline-block;
@@ -90,7 +93,7 @@ body {
   border-radius: 7px;
   font-family: "Clear Sans";
   color: #766;
-  background-color: #182331;
+  background-color: rgba(39, 53, 12, 0.821);
 }
 
 .tile0 {
@@ -165,13 +168,16 @@ body {
 
 .try-again {
   z-index: 10;
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
   background-image: url(./assets/img/try-again.gif);
 }
 
 .tile {
   position: absolute;
+  width: 80px;
+  height: 80px;
+  background-position: center;
 }
 
 .tile.merged {
