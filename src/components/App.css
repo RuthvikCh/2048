@@ -1,5 +1,5 @@
 .header{
-        color: whitesmoke;
+        color: black;
         text-align: center;
 }
 .header a{
@@ -10,9 +10,10 @@
         background-color: black;
         border-radius: 5px;
 }
+
 .btnbar{
-        margin-left: 2%;
-  width: 400px;
+  margin-top: 2%;
+  width: 370px;
   display: flex;
   align-items: center;
   padding: 10px;
@@ -22,15 +23,15 @@
 }
 .movebutton{
 
-  background-color: #17283d;
-  color: rgba(255, 255, 255, 0.5);
+  background-color: #588c21;
+  color: rgba(0, 0, 0, 0.869);
   cursor: pointer;
   font-size: 25px;
-  padding: 10px 20px;
+  padding: 12px 15px;
   border-radius: 7px;
   transition: color 0.3s ease, background-color 0.3s ease;
   
 }
 .movebutton:hover{
-        background-color: #0c274b;      
+        background-color: #43712a;      
 }
