@@ -7,7 +7,7 @@ body {
   margin:auto;
   width: 380px;
   display: flex;
-  background-color:rgb(255, 255, 176);
+  background-color:rgb(250, 250, 191);
   flex-direction: column;
   justify-content: center;
   align-content: center;
@@ -29,7 +29,7 @@ body {
   width: 360px;
   height: 360px;
   padding: 5px;
-  background-color: #1f5654;//#6ea433
+  background-color: #26716e;//#6ea433
   border-radius: 7px;
   outline: none;
   position: relative;
@@ -53,7 +53,7 @@ body {
 
 .resetButton {
 
-  background-color: #34d2c0;
+  background-color: #2ae9d3;
   color: rgba(0, 0, 0, 0.759);
   cursor: pointer;
   font-size: 25px;
@@ -71,7 +71,7 @@ body {
 }
 
 .score-box {
-  background-color: #34d2c0;
+  background-color: #2ae9d3;
   color: rgba(0, 0, 0, 0.80);
   min-width: 50px;
   width: 70px;
@@ -93,7 +93,7 @@ body {
   border-radius: 7px;
   font-family: "Clear Sans";
   color: #766;
-  background-color: #4acdbe95;
+  background-color: #41deccdf;
 }
 
 .tile0 {
