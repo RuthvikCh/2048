@@ -23,7 +23,7 @@
 }
 .movebutton{
 
-  background-color: #588c21;
+  background-color: #2ae9d3;
   color: rgba(0, 0, 0, 0.869);
   cursor: pointer;
   font-size: 25px;
@@ -33,5 +33,6 @@
   
 }
 .movebutton:hover{
-        background-color: #43712a;      
+        background-color: #347b76;
+        color: white;      
 }
