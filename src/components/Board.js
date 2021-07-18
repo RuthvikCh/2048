@@ -119,7 +119,7 @@ else{
 
   return (
     <div>
-        <div className="header"> Use arrow keys to play the Game </div>
+        <div className="header"> Use arrow keys to play the Game.  Alternatively use the buttons provided below. </div>
       
       <div className="details-box">
         <div className="resetButton" onClick={resetGame}>
